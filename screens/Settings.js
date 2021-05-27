@@ -1,9 +1,9 @@
 import "react-native-gesture-handler";
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import { Touch } from "../component/CustomInput";
+import { Touch } from "../Button/Button";
 import { More } from "../svg";
-import { Input } from "../Reuse/Reuse";
+import { Input } from "../Input/Input";
 
 export default function Settings({ navigation }) {
   return (
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     color: "#383838",
     fontWeight: "700",
     fontSize: 28,
-    marginRight: 200,
+    marginRight: 150,
     marginTop: 60,
   },
   box: {

@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   home: {
     color: "#383838",
     fontSize: 30,
-    marginTop: 60,
+    marginTop: 56,
     marginBottom: 20,
     marginLeft: 30,
     fontWeight: "700",

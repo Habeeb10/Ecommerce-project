@@ -32,14 +32,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#3E3E3E",
     lineHeight: 27,
-    marginTop: 15,
+    // marginTop: 15,
+    marginLeft:20,
+    marginBottom:10
   },
   container: {
     marginTop: 30,
   },
   input: {
     width: "100%",
-    marginTop: 20,
+    // marginTop: 0,
     color: "#3D6670",
     fontSize: 15,
     height: 60,

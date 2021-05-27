@@ -2,8 +2,8 @@ import "react-native-gesture-handler";
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Input } from "../Reuse/Reuse";
-import { Touch } from "../component/CustomInput";
+import { Input } from "../Input/Input";
+import { Touch } from "../Button/Button";
 
 export default function ForgotPassword({ navigation }) {
   return (

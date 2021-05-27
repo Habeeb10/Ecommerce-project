@@ -1,7 +1,7 @@
 import "react-native-gesture-handler";
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import { Touch } from "../component/CustomInput";
+import { Touch } from "../Button/Button";
 import { More } from "../svg";
 
 const LIST = [
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     color: "#383838",
   },
   base: {
-    marginLeft: 20,
+    // marginLeft: 10,
     width: 110,
     alignItems: "center",
   },
@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
     color: "#383838",
   },
   mic: {
-    marginLeft: 30,
+    marginLeft: 20,
   },
   box1: {
     marginTop: 10,

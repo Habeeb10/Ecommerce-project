@@ -1,9 +1,9 @@
 import "react-native-gesture-handler";
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import { Touch } from "../component/CustomInput";
+import { Touch } from "../Button/Button";
 import { More } from "../svg";
-import { Input } from "../Reuse/Reuse";
+import { Input } from "../Input/Input";
 
 export default function Upload({ navigation }) {
   return (

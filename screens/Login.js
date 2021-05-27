@@ -1,8 +1,8 @@
 import "react-native-gesture-handler";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Input } from "../Reuse/Reuse";
-import { Touch } from "../component/CustomInput";
+import { Input } from "../Input/Input";
+import { Touch } from "../Button/Button";
 import GOOGLE from "../svg";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import React, { useState } from "react";
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
   google: {
-    marginTop: 30,
+    // marginTop: 30,
     alignItems: "center",
     flexDirection: "row",
     height: 50,
@@ -141,14 +141,15 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     lineHeight: 25,
     fontSize: 14,
-    marginTop: 30,
+    marginBottom: 10,
     fontWeight: "400",
+    marginTop:10,
   },
   bot: {
     marginTop: 60,
   },
   button: {
-    marginTop: 60,
+    marginTop: 50,
     width: "100%",
   },
   sign: {
